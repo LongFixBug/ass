@@ -52,6 +52,9 @@ public class AdminController extends HttpServlet {
             Map<Integer, String> listCategories = new CategoryDAO().getCategories();
             
             
+            
+            
+            //jadasdansda
            
             List<Product> listCourse = new ProductDAO().getAllProducts();
             List<Account> listAccounts = new AccountDAO().getAccounts();
